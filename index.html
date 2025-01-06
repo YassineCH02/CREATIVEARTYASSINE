@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Space</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Creative Space</h1>
+            <p class="subtitle">A platform to share your art and the finest AI-generated creations. Not a competition, but a celebration of creativity.</p>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About</h2>
+                <p>Welcome to Creative Space, a unique platform where human and AI-generated art coexist. This is a place for sharing creativity, connecting artists, and inspiring innovation.</p>
+                <p>Whether you are an artist looking to share your work or an enthusiast curious about AI-generated masterpieces, Creative Space is the perfect environment for exploration and expression.</p>
+            </div>
+        </section>
+        <section id="gallery">
+            <div class="container">
+                <h2>Art Gallery</h2>
+                <p>A curated collection of both human and AI-generated art, celebrating creativity in all its forms.</p>
+                <div class="grid">
+                    <img src="images/art1.jpg" alt="Art 1">
+                    <img src="images/art2.jpg" alt="Art 2">
+                    <img src="images/art3.jpg" alt="Art 3">
+                    <img src="images/art4.jpg" alt="Art 4">
+                </div>
+            </div>
+        </section>
+        <section id="submit">
+            <div class="container">
+                <h2>Share Your Art</h2>
+                <form id="artForm">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="art">Upload Your Art:</label>
+                    <input type="file" id="art" name="art" accept="image/*" required>
+                    <label for="description">Description of Your Art:</label>
+                    <textarea id="description" name="description" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>If you have any questions, feel free to reach out to us at <a href="mailto:chagdaniyassincv@gmail.com">chagdaniyassincv@gmail.com</a>.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Created by Chagdani Yassine</p>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
